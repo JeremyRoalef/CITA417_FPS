@@ -13,7 +13,8 @@ This lab aims to develop a system for enemy wave spawning and completion. In doi
 <img width="1020" height="220" alt="image" src="https://github.com/user-attachments/assets/98f8a091-3bc8-43dc-9b6f-bdc879955389" />
 
 <h1>Video</h1>
-![2025-10-10 12-35-11](https://github.com/user-attachments/assets/88e7ff61-b1bc-4a56-8985-d1ce54ebab49)
+![2025-10-10 12-35-11](https://github.com/user-attachments/assets/db96ad22-1b12-4285-979b-bd81ee99a299)
+
 
 <h1>Analysis</h1>
 Making a wave spawner is simple. Create a spawn point system, a manager for wave spawning, the enemy spawning behavior, and create some enemy variants. While working on this lab, one problem was evident: visual scripting is very restrictive. Visual scripting may be a great tool for beginnners with low-complexity code. However, creating a wave manager highlighted how hard it is to control the pin flow in a logical and visual manner. In the BP_WaveManager above, you may see some pin connections traversing across the entire system with minimal control over how they get there. This could be reduced completely with text-based programming.
